@@ -1,0 +1,21 @@
+{
+  "name": "js-dom-challenges",
+  "version": "1.0.0",
+  "description": "Learn how to handle DOM manipulations",
+  "scripts": {
+    "serve": "live-server src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sciences-u-lyon/js-dom-challenges.git"
+  },
+  "author": "Nicolas Payot <nicolas.payot@gmail.com> (http://nicolaspayot.github.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sciences-u-lyon/js-dom-challenges/issues"
+  },
+  "homepage": "https://github.com/sciences-u-lyon/js-dom-challenges#readme",
+  "devDependencies": {
+    "live-server": "^1.2.0"
+  }
+}
