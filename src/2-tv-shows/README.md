@@ -22,3 +22,30 @@
 - The modal should be closed on close button click
 - All related modal code should be handled by a `Modal` class that will be exported as a named ES6 module.
 - Code should be written in `main.js` and `Modal.js` using DOM API only, no jQuery!
+
+## 3/ End 2 End Testing
+
+> Hands on End 2 End tests with Cypress!
+
+- Add cypress dependency:
+  - `yarn add --dev cypress` / `npm install --save-dev cypress`
+- Update `package.json` with:
+```json
+"scripts": {
+  "serve": "live-server src/",
+  "cypress": "cypress open"
+}
+```
+- Launch cypress:
+  - `yarn cypress` / `npm run cypress`
+- Update `cypress.json` with:
+```json
+{
+  "baseUrl": "http://127.0.0.1:8080/2-tv-shows/",
+  "ignoreTestFiles": "example_spec.js"
+}
+```
+- Add `tv-shows.spec.js` file in `cypress/integration/` folder
+- Add some tests to check the search feature
+- Add another test to check the modal "open" feature
+- Add another test to check the modal "close" feature
