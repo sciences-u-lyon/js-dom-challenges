@@ -36,6 +36,8 @@
   "cypress": "cypress open"
 }
 ```
+- Launch development server:
+  - `yarn serve`
 - Launch cypress:
   - `yarn cypress` / `npm run cypress`
 - Update `cypress.json` with:
