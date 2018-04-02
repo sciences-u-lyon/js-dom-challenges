@@ -1,15 +1,15 @@
 # 2-tv-shows
 
-## 1-search
+## 1/ Search
 
 > Implement a search feature that filters TV shows images by title
 
-- Each `<img>` tag in `1-modal/index.html` is a TV show poster. It contains a `data-keywords` attribute to store the TV show title
+- Each `<img>` tag in `index.html` is a TV show poster. It contains a `data-keywords` attribute to store the TV show title
 - The page header contains an `<input>` tag that should be used to filter the images list by typing a TV show title
 - An `<img>` tag can be *filtered out* from the list by adding the class `is-hidden`
-- Code should be written in `1-search/main.js` using standard DOM API only, no jQuery!
+- Code should be written in `main.js` using standard DOM API only, no jQuery!
 
-## 2-modal
+## 2/ Modal
 
 > Implement a modal box that displays a TV show poster
 
@@ -21,4 +21,4 @@
 - The modal should be opened on `<img>` click
 - The modal should be closed on close button click
 - All related modal code should be handled by a `Modal` class that will be exported as a named ES6 module.
-- Code should be written in `2-modal/main.js` and `2-modal/Modal.js` using DOM API only, no jQuery!
+- Code should be written in `main.js` and `Modal.js` using DOM API only, no jQuery!
